@@ -3,9 +3,20 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary-violet: hsl(257, 40%, 49%);
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 67.5%;
 }
 
 body {
-    background-color: lightpink;
+    background-color: var(--color-primary-violet);
+    background-image: url(../images/bg-desktop.svg);
 }

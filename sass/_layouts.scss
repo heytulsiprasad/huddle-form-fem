@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+.cover_logo {
+    padding: 1rem;
+    padding-left: 5rem;
+
+    &-image {
+        width: 20rem;
+    }
+}
+
+.footer {
+    align-self: flex-end;
+}
