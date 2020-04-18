@@ -45,6 +45,7 @@ body {
     font-size: 1.2rem; }
   .hero_content .button-singular {
     border: none;
+    outline: none;
     padding: 1rem 3rem;
     background-color: #fff;
     border-radius: 5rem;
@@ -77,7 +78,8 @@ body {
   min-height: 100vh; }
 
 .main {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .cover_logo {
   padding: 1rem;
