@@ -1,0 +1,18 @@
+{
+    "name": "huddle-landing-form",
+    "version": "1.0.0",
+    "description": "![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm-run-all --parallel watch:sass devserver",
+        "watch:sass": "node-sass -w sass/main.scss css/style.css",
+        "devserver": "live-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^4.13.1",
+        "npm-run-all": "^4.1.5"
+    }
+}
